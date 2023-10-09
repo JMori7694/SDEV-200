@@ -20,5 +20,6 @@ public class DivisionMistakeCaught2
          System.out.println(mistake.getMessage());
       }
       System.out.println("End of program");
+      input.close();
    }
 }

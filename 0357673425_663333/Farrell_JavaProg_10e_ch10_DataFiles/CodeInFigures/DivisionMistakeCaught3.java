@@ -24,5 +24,7 @@ public class DivisionMistakeCaught3
          System.out.println("Wrong data type");
       }
       System.out.println("End of program");
+
+      input.close();
    }
 }
