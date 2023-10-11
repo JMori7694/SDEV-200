@@ -7,25 +7,17 @@ import java.util.Scanner;
 public class Rental {
     Scanner in = new Scanner(System.in);
 
-    public static void MinutesPerHour() {
+    public final static void MinutesPerHour() {
         final int MPH = 60;
     }
     public final static void HourlyRentalRate() {
         final int HRR = 40;
     }
     
-    private String ContractNumber() {
-        String contractNum;
-    }
-    private Double HoursForRental() {
-        double hoursRent;
-    }
-    private Double MinutesOverHour() {
-        double minsOver;
-    }
-    private Double Price() {
-        double total;
-    }
+    private String contractNum;
+    private Double hoursRent;
+    private Double minsOver;
+    private Double total;
 
     public String setContractNumber(String ContractNum) {
         System.out.print("Please enter the Contract Number >> ");
@@ -52,11 +44,17 @@ public class Rental {
         }
     }
     
-    public String getContractNumber {
+    public String getContractNumber() {
         return contractNum;
     }
-    public Double getHoursForRental {
+    public Double getHoursForRental() {
         return hoursRent;
+    }
+    public Double getMinutesOverHour() {
+        return minsOver;
+    }
+    public Double getPrice() {
+        return total;
     }
     
 }
