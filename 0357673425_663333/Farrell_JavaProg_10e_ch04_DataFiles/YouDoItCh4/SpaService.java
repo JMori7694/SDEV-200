@@ -4,8 +4,7 @@ public class SpaService {
     private double price;
 
     public SpaService() {
-        serviceDescription = "XXX";
-        price = 0;
+        this = "XXX";
     }
 
     public SpaService(String desc, double pr) {
